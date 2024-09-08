@@ -1,0 +1,38 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eaeaea;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Loader styling */
+  .loader {
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    position: absolute;
+  }
+  
+  /* Hidden class */
+  .hidden {
+    display: none;
+  }
+  
+  /* Root element styling */
+  #root {
+    display: none;
+  }
+  
